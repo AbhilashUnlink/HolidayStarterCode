@@ -1,0 +1,24 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flex-column .react-datepicker-wrapper {
+  width: 100% !important;
+  margin-top: -20px !important;
+}
+a:not([href]):not([tabindex]) {
+  /* text-decoration: none; */
+  width: 1rem;
+  height: 1rem;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-bottom: 10px solid rgb(58, 57, 57);
+}
+a.react-datepicker__navigation.react-datepicker__navigation--years.react-datepicker__navigation--years-previous {
+    transform: rotate(180deg);
+}
+.form-group  fieldset{
+  border: 0 !important;
+}

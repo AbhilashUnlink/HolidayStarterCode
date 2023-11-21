@@ -1,0 +1,145 @@
+.transaction-status-icons {
+  width: 20px;
+  margin-right: 5px;
+}
+.transaction-scheme-icons {
+  width: 28px;
+}
+.footer {
+  border-top: 1px solid rgb(206, 202, 202);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 5px;
+}
+/* Table Header styles */
+.MuiDataGrid-columnHeaders {
+  background: #47648e;
+}
+.MuiDataGrid-columnHeader.super-app-theme--header {
+  /* background: #446691; */
+  color: white;
+}
+/* table row */
+.super-app-theme--dastable.MuiDataGrid-row {
+  font-size: 12px;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiDataGrid-iconSeparator {
+  display: none;
+}
+.box-listing.edit-box
+  .MuiFormControl-root.MuiTextField-root.MuiFormControl-root {
+  width: 100%;
+}
+.das-table .MuiDataGrid-root {
+  background: #fff;
+}
+/*  */
+
+
+.MuiDataGrid-toolbarContainer {
+  background: transparent;
+  border: 0 !important;
+  padding: 0 0;
+  position: fixed;
+  top: 64px;
+  left: 184px;
+}
+.MuiDataGrid-toolbarContainer button.MuiButtonBase-root {
+  border: 1px solid;
+  padding: 4px 5px;
+  position: relative;
+  min-width: auto;
+  top: -2px;
+  vertical-align: middle;
+  background: #fff;
+  color: #607d8b;
+  text-indent: -240px;
+  font-size: 0;
+  overflow: hidden;
+  height: 35px;
+  transition: all .3s ease 0s;
+}
+.MuiDataGrid-toolbarContainer button.MuiButtonBase-root::before {
+  content: "Additional Columns";
+  position: relative;
+  margin: 0 4px 0 25px;
+  transition: all .3s ease 0s;
+}
+.MuiDataGrid-toolbarContainer button.MuiButtonBase-root .MuiButton-startIcon {
+  display: inherit;
+  margin-right: 8px;
+  margin-left: -5px;
+  position: absolute;
+  padding: 7px 1px 7px 15px;
+  left: 1px;
+  background: #fff;
+  transition: all .3s ease 0s;
+  display: none;
+}
+.MuiDataGrid-toolbarContainer button.MuiButtonBase-root:hover::before {
+  display: block;
+  text-indent: 10px;
+  font-size: 13px;
+  position: relative;
+  top: 0.5px;
+  transition: all .3s ease 0s;
+}
+.MuiDataGrid-toolbarContainer button.MuiButtonBase-root::after {
+  content: "▥";
+  position: absolute;
+  margin: 0 4px 0 0px;
+  font-size: 26px;
+  transition: all .3s ease 0s;
+  left: 0px;
+  padding: 8px 5px 8px 8px;
+  text-indent: 0;
+  background: #fff;
+  z-index: 999999;
+  /* background-image: url(../../assets/column.png); */
+}
+.das-table {
+  margin-top: 3.3vh;
+  position: relative;
+  display: flex;
+}
+.MuiDataGrid-virtualScroller {
+  overflow-y: auto !important;
+    height: 74vh !important;
+}
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb{
+  display: block;
+}
+/* .MuiDataGrid-root .MuiDataGrid-cell {
+  border-left: 1px solid rgba(224, 224, 224, 1);
+} */
+.MuiDataGrid-root.MuiDataGrid-autoHeight .MuiDataGrid-row--lastVisible .MuiDataGrid-cell{
+  border-bottom-color:rgba(224, 224, 224, 1) !important;
+}
+.select-rows fieldset {
+  border: 0;
+}
+.select-rows .MuiInputBase-root.MuiInputBase-formControl {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #7b7c7c;
+}
+.MuiDataGrid-columnHeadersInner .css-k008qs {
+  height: auto;
+}
+.MuiDataGrid-columnHeaderTitleContainer {
+  color: white;
+}
+.risk-statement label {
+  -webkit-transform: translate(14px,-13px) scale(1)!important;
+  transform: translate(14px,-13px) scale(1)!important;
+  background: #fff;
+  padding: 0 5px;
+  font-size: .9rem;
+  color: #000;
+}
+.submit-button {
+  background: #4a6c8d!important;
+}

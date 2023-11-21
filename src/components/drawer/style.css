@@ -1,0 +1,25 @@
+.drawer-header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout {
+  width: 7rem;
+}
+.right-heading-section {
+  display: flex;
+  width: 12%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.menu-item {
+  color: #a555f3;
+}
+.menu-item.active {
+  background-color: #a555f3;
+  color: white;
+}

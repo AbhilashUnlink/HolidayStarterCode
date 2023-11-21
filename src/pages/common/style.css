@@ -1,0 +1,8 @@
+.leaves-list{
+    display: flex;
+    width: 100%;
+    gap:3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
