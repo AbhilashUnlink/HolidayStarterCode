@@ -1,0 +1,6 @@
+export const leaveType = {
+  CASUALLEAVE: "CASUALLEAVE",
+  SICKLEAVE: "SICKLEAVE",
+  EARNEDLEAVE: "EARNEDLEAVE",
+};
+// ACCEPTED;
